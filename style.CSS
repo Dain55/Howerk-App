@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+
+/* Header */
+.logo-header{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    width: 100%;
+    height: 48px;
+    max-height: 44px;
+    background: rgba(0, 0, 0, 0.92);
+    font-size: 17px;
+}
+.logo-header img {
+    height: 25px;
+    margin: 5px 0px 0px 0px;
+}
+.apple-header{
+    display: flex;
+    gap: 50px;
+    margin: 15px 0px 0px 0px;
+}
+
+.apple-header h6{
+    color: white;  
+    font-size: 10px;
+}
+.seach{
+    filter: contrast(0%);
+}
+.shop{
+    filter: contrast(0%);
+}
+
+.header-reklama{
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;;
+
+}
+.reklama{
+    display: flex;
+    height: 70px;
+    width: 1100px;
+    border-radius: 10px;
+    background-color: #F5F5F7;
+}
+.text-Special{
+    padding: 20px 20px;
+    font-size: 14px;
+}
+
+.modal-deals{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+}
+.custom-modal{
+    display: none;
+    top: -100px;
+    height: 800px;
+    width: 900px;
+    margin: 90px auto;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+}
+.custom-text{
+   margin: 50px auto; 
+   height: 100px;
+   width: 700px;
+}
+.custom-text h1{
+     padding-left: 150px;
+     font-size: 60px;
+}
+.text-p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.text-link{
+    color:rgb(0, 162, 255); 
+    text-decoration: none;
+}
+.text-link:hover{
+    color:rgb(0, 162, 255); 
+    text-decoration: underline;
+}
+.select-box{
+    border-color: gray;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    margin-left: 220px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.img-conpon{
+    margin-left: 210px;
+}
+.close-x{
+    color: #6e6e73;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    left: 20px;
+    top: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.text-blue{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+.text-blue:hover{
+    color: rgb(0, 162, 255);
+    text-decoration: underline;
+}
+.text-200{
+    display: flex;
+    padding: 20px 20px;
+    font-size: 14px;
+}
+.text-340{
+    display: flex;
+    padding: 20px 20px;
+    font-size: 14px;
+}
+.text-400{
+    display: flex;
+        padding: 20px 20px;
+        font-size: 14px;
+}
+.text-800{
+    display: flex;
+        padding: 20px 20px;
+        font-size: 14px;
+}
+/* Container */
+.container {
+    height: 600px;
+    width: 1150px;
+    margin: 50px auto;
+}
+
+.text-buy h6{
+    color: grey;
+    font-size: 10px;
+}
+.text-buy h5{
+    color:#C35310;
+}
+.img-iphone{
+    display: flex;
+}
+/* ------------------- */
+.button-iphone{
+    margin: 20px 30px;
+}
+.phone-img{
+        width: auto;
+        height: 100%;
+        max-width: none;
+        max-height:500px;
+        display: block;
+        border-radius: 18px;
+}
+.text-black{
+    color: black;
+    font-weight: bolder;
+}
+.text-grey{
+    color: gray;
+    font-weight: bold;
+}
+.button-iphone-14{
+    margin-top: 20px;
+    color: #1d1d1f;
+        border-color: #d2d2d7;
+        background-color: hsla(0, 0%, 100%, .8);
+            font-size: 17px;
+                line-height: 1.23536;
+                font-weight: 400;
+                width: 100%;
+                height: auto;
+                border-radius: 12px;
+                border-width: 1px;
+                border-style: solid;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+                text-align: center;
+                box-sizing: border-box;
+                cursor: pointer;
+                min-height: 4.88235rem;
+}
+.text-1{
+    font-weight: 600;
+    align-self: flex-start;
+    text-align: left;
+    }
+.text-2{
+    font-size: 10px;
+    align-self: flex-start;
+}
+
+.Colors{
+    margin-top: 20px;
+}
+
+.finish{
+    color: black;
+    font-weight: bold;
+}
+.pink{
+    color: gray;
+}
+.color-phone{
+    display: flex;
+    gap: 15px;
+}
+.Deep-Purple{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background: purple;
+    cursor: pointer;
+}
+.Deep-Purple:hover{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background: purple;
+    cursor: progress;
+    border: blue solid;
+}
+.Gold{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background: gold;
+    cursor: pointer;
+}
+.Gold:hover{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background: gold;
+    cursor: pointer;
+    border: blue solid;
+}
+.Silver{
+        height: 30px;
+        width: 30px;
+        border-radius: 20px;
+        background: silver;
+        cursor: pointer;
+}
+.Silver:hover{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background: silver;
+    cursor: pointer;
+    border: blue solid;
+}
+.Space-Black{
+            height: 30px;
+                width: 30px;
+                border-radius: 20px;
+                background: black;
+                cursor: pointer;
+}
+.Space-Black:hover{
+    height: 30px;
+        width: 30px;
+        border-radius: 20px;
+        background: black;
+        cursor: pointer;
+        border: blue solid;
+}
